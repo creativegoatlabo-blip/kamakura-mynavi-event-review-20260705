@@ -1,0 +1,43 @@
+/* Hallmark · macrostructure: Stat-Led · genre: editorial · theme: Studio · nav: N9 · footer: Ft4 */
+:root {
+  --color-paper: oklch(97% .006 170);
+  --color-paper-2: oklch(94% .01 170);
+  --color-paper-3: oklch(89% .018 170);
+  --color-ink: oklch(26% .028 165);
+  --color-ink-2: oklch(36% .022 165);
+  --color-muted: oklch(48% .015 165);
+  --color-rule: oklch(80% .018 165);
+  --color-green: oklch(33% .05 165);
+  --color-green-light: oklch(45% .065 165);
+  --color-accent: oklch(68% .098 80);
+  --color-accent-dark: oklch(48% .081 80);
+  --color-on-dark: oklch(96% .012 95);
+  --color-muted-on-dark: oklch(80% .025 155);
+  --color-rule-on-dark: oklch(51% .04 165);
+  --color-cancel: oklch(54% .015 165);
+  --color-focus: oklch(49% .12 250);
+  --color-transparent: oklch(0% 0 0 / 0);
+  --font-display: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  --font-body: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  --font-number: Georgia, "Times New Roman", serif;
+  --space-xs: .25rem;
+  --space-sm: .5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-section: clamp(5rem, 9vw, 9rem);
+  --text-body: 1rem;
+  --text-small: .875rem;
+  --text-heading: clamp(2rem, 3.5vw, 3.75rem);
+  --text-display: clamp(3.5rem, 7vw, 6.75rem);
+  --ease-out: cubic-bezier(.2,.65,.3,1);
+  --ease-in: cubic-bezier(.4,0,.7,.4);
+  --ease-in-out: cubic-bezier(.4,0,.2,1);
+  --dur-fast: 150ms;
+  --dur-normal: 400ms;
+  --dur-slow: 700ms;
+  --radius-sm: .25rem;
+  --rule-thin: 1px;
+}
