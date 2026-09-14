@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="tokens.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   <script src="app.js" defer></script>
   <noscript><style>.rate-controls,.plan-copy input,.range-labels{display:none}</style></noscript>
 </head>
@@ -94,7 +94,7 @@
 
     <section class="learning-section" id="learning" aria-labelledby="learning-title">
       <div class="wrap">
-        <div class="learning-intro"><div><p class="section-kicker">接客記録から見えたこと</p><h2 id="learning-title">「手作り」も、<br>選択肢になった。</h2></div><div class="awareness"><div><strong>4</strong><span> / 4組</span></div><p>認知の回答が明確な4組は、<br>全員がイベントで工房を初めて知った。</p><small>来店8組のうち、残り4組は不明・記載なし。<br>成約した3組も、工房を知らなかった方々です。</small></div></div>
+        <div class="learning-intro"><div><p class="section-kicker">接客記録から見えたこと</p><h2 id="learning-title">「手作り」も、<br>選択肢になった。</h2></div><div class="awareness"><p class="awareness-base">来店した8組のうち</p><div><strong>4</strong><span>組</span></div><p><strong class="awareness-answer">「イベントで初めて工房を知った」</strong><br>とシートに記録されています。</p><div class="awareness-units" role="img" aria-label="来店8組のうち、イベントで初めて工房を知ったと記録4組、不明・空欄4組"><i class="known"></i><i class="known"></i><i class="known"></i><i class="known"></i><i></i><i></i><i></i><i></i></div><small>残り4組は、1組が「不明」、3組が空欄。<br>以前から知っていたかは、このシートでは分かりません。</small><p class="awareness-result">成約した3組も、初めて工房を知った4組に含まれます。</p></div></div>
         <div class="learning-stories">
           <article><span class="story-mark" aria-hidden="true">“</span><h3>接客への好印象が、<br>決め手に。</h3><p>担当者の感じがよかったことを、工房を選んだ理由として挙げたお客様がいました。</p><span class="evidence-label">制作時の接客記録より要約</span></article>
           <article><span class="story-mark" aria-hidden="true">“</span><h3>制作音や体験が、<br>立ち寄るきっかけに。</h3><p>会場の制作音、サイズ計測への関心、待たずに見られることからブースへ。見学後、他店を見ることなく制作予約に進んだ例もありました。</p><span class="evidence-label">制作時の接客記録より要約</span></article>
@@ -108,8 +108,27 @@
       <div class="section-heading"><div><p class="section-kicker">来店した8組の輪郭</p><h2 id="profile-title">まだ、選び始めた<br>お客様も多い。</h2></div><p>予算も購入先も検討の途中。<br>手作りについて知ってもらう時間が、<br>次の選択につながります。</p></div>
       <div class="profile-grid">
         <div class="budget-block"><h3>希望予算</h3><div class="budget-row"><span>未定・特になし</span><div><i style="--bar:1"></i></div><strong>4<span>組</span></strong></div><div class="budget-row"><span>30万円前後</span><div><i style="--bar:.5"></i></div><strong>2<span>組</span></strong></div><div class="budget-row"><span>40〜50万円</span><div><i style="--bar:.25"></i></div><strong>1<span>組</span></strong></div><div class="budget-row muted-bar"><span>不明</span><div><i style="--bar:.25"></i></div><strong>1<span>組</span></strong></div><p class="note">希望予算の記載を分類。成約金額・売上ではありません。</p></div>
-        <div class="profile-note"><p class="small-heading">既製品と、手作りの比較</p><p>比較検討先には、アイプリモ、ダイヤモンドシライシ、ブシュロンなどの記載がありました。</p><p>手作りの楽しさに加えて、<strong>デザイン・料金・アフターケア・納期</strong>を具体的に案内することが、お客様の判断を支えます。</p><p class="note">ブランドの優劣や、価格が失注原因だったことを示すデータではありません。</p></div>
+        <div class="profile-note"><p class="small-heading">既製品と、手作りの比較</p><p>既製品を検討しながら、手作りはどのようなものか知るために見学されたお客様もいました。</p><p>手作りの楽しさに加えて、<strong>デザイン・料金・アフターケア・納期</strong>を具体的に案内することが、お客様の判断を支えます。</p><p class="note">希望予算だけで、価格が失注原因だったとは判断できません。</p></div>
       </div>
+    </section>
+
+    <section class="brand-section wrap" id="brands" aria-labelledby="brands-title">
+      <div class="section-heading"><div><p class="section-kicker">検討・見学していた他ブランド</p><h2 id="brands-title">既製品ブランドと、<br>手作りの間で。</h2></div><p>「他検討ブランド」欄と接客メモに、<br>具体的なブランド名があったのは3組。<br>次の3ブランドが記録されていました。</p></div>
+      <div class="brand-grid">
+        <figure class="brand-chart">
+          <figcaption>ブランド名が記録されていたお客様の組数</figcaption>
+          <div class="brand-row"><span class="brand-name">ダイヤモンドシライシ</span><strong>2<span>組</span></strong><div class="brand-bar" aria-hidden="true"><i style="--brand-share:1"></i></div></div>
+          <div class="brand-row"><span class="brand-name">アイプリモ</span><strong>1<span>組</span></strong><div class="brand-bar" aria-hidden="true"><i style="--brand-share:.5"></i></div></div>
+          <div class="brand-row"><span class="brand-name">ブシュロン</span><strong>1<span>組</span></strong><div class="brand-bar" aria-hidden="true"><i style="--brand-share:.5"></i></div></div>
+          <p class="note">来店8組のうち3組分の記録です。同じお客様が複数ブランドを挙げているため、組数には重複があります。イベント会場での見学記録も含みます。</p>
+        </figure>
+        <div class="brand-findings">
+          <article><p class="small-heading">他ブランドを見ていた方も、工房で成約</p><p>ブランド名の記載がある3組のうち、<strong>2組は当工房で成約</strong>しました。接客への好印象や制作体験が、工房を選ぶ理由になった例があります。</p></article>
+          <article><p class="small-heading">他社に決めた理由は、まだ分からない</p><p>別の1組は制作予約後に他社へ決定しましたが、<strong>決定先のブランド名と具体的な理由は未記載</strong>です。上の3ブランドのいずれかに決めたとは判断できません。</p></article>
+        </div>
+      </div>
+      <div class="brand-takeaway"><h3>接客で、比較しているポイントを伺う。</h3><p>どのブランドを見ているかに加え、デザイン・総額・アフターケア・納期など、何を重視しているかを伺う。手作りの体験価値と合わせて伝えることが、お客様の選択を支えます。</p></div>
+      <p class="note brand-limit">少数の接客記録から得られた情報です。ブランド別の成約率や、競合の強さを比較できるデータではありません。</p>
     </section>
 
     <section class="handover-section wrap" aria-labelledby="handover-title">
@@ -129,7 +148,7 @@
   </main>
   <footer class="colophon wrap">
     <div class="footer-title">記録を、次の接客へ。<a href="#top" aria-label="ページの先頭へ">↑</a></div>
-    <details><summary>出典・集計の考え方</summary><div class="source-notes"><p>出典：ご見学状況入力シート（2026年9月10日取得ファイル）「ご見学状況」B3:P13／「横浜店 ご見学メモ」。成約3組・予約照合の状況は2026年9月5日の担当者報告で確認。50％の計画仮説と次回の重点は、9月14日に共有された振り返り方針に基づきます。</p><p>1件をお客様1組として表示。成約欄が未成約でも、制作日・制作時メモがあり、担当者報告でも確認された1組を成約に含めています。未成約4組を含め予約照合済みですが、イベント経由を申告しないケースなど、追跡に限界があります。未確認の成果は加算していません。</p><p>予算は8組分の記載を「未定・特になし4組、30万円前後2組、40〜50万円1組、不明1組」に分類。認知の4/4組は回答が明確な方に限った集計です。接客エピソードは匿名の要約で、すべてのお客様に共通する傾向とは限りません。</p><p>割合は小数第1位に丸めています。計算体験は仮定の変更であり、実績の更新ではありません。個人名・個別の住所・連絡先・原票は掲載していません。</p></div></details>
+    <details><summary>出典・集計の考え方</summary><div class="source-notes"><p>出典：ご見学状況入力シート（2026年9月10日取得ファイル）「ご見学状況」B3:P13／「横浜店 ご見学メモ」。成約3組・予約照合の状況は2026年9月5日の担当者報告で確認。50％の計画仮説と次回の重点は、9月14日に共有された振り返り方針に基づきます。</p><p>1件をお客様1組として表示。成約欄が未成約でも、制作日・制作時メモがあり、担当者報告でも確認された1組を成約に含めています。未成約4組を含め予約照合済みですが、イベント経由を申告しないケースなど、追跡に限界があります。未確認の成果は加算していません。</p><p>予算は8組分の記載を「未定・特になし4組、30万円前後2組、40〜50万円1組、不明1組」に分類。「イベント以前から当工房を知っていたか」欄は、来店8組のうち4組が工房を知らなかった旨の記載、1組が「不明」、3組が空欄です。未記載を「知らなかった」として集計していません。</p><p>他ブランドの集計はN3:P13を確認し、ダイヤモンドシライシはP3・N5の2組、アイプリモはN5の1組、ブシュロンはN9・O9の同じ1組を数えています。同じお客様・同じブランドの重複記載は1組とし、複数ブランドを挙げたお客様は各ブランドで数えています。他社決定の1組はO6に記録されていますが、決定先のブランド名はありません。</p><p>接客エピソードは匿名の要約で、すべてのお客様に共通する傾向とは限りません。割合は小数第1位に丸めています。計算体験は仮定の変更であり、実績の更新ではありません。個人名・個別の住所・連絡先・原票は掲載していません。</p></div></details>
     <div class="footer-meta"><span>鎌倉彫金工房 · 社内共有資料</span><span>作成：2026.09.14</span><span>検索エンジン非掲載設定 / URLで閲覧可能</span></div>
   </footer>
 </body>
